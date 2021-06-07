@@ -4,7 +4,7 @@ const IdCard = (props) => {
     return(
     <div id="id-card"> 
         <div>
-            <img src={props.picture} height='180px' alt={props.firstName} />
+            <img src={props.picture} height='140px' alt={props.firstName} />
         </div>
 
         <div style={{textAlign: 'left'}}> 
