@@ -2,6 +2,8 @@ import React from 'react';
 import IdCard from './components/IdCard'
 import Greetings from './components/Greetings'
 import Random from './components/Random'
+import BoxColor from './components/BoxColor'
+
 
 
 import './App.css';
@@ -39,6 +41,12 @@ function App() {
             <h2>Random</h2>
             <Random min={1} max={6}/>
             <Random min={1} max={100}/>
+        </section>
+
+        <section className="container">
+            <h2>BoxColor</h2>
+            <BoxColor r={255} g={0} b={0}>rgb(255,0,0)</BoxColor>
+            <BoxColor r={128} g={255} b={0}>rgb(255,0,0)</BoxColor>
         </section>
     </div>
   );
