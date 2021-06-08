@@ -4,6 +4,8 @@ import Greetings from './components/Greetings'
 import Random from './components/Random'
 import BoxColor from './components/BoxColor'
 import CreditCard from './components/CreditCard'
+import Rating from './components/Rating'
+
 
 
 
@@ -53,7 +55,7 @@ function App() {
 
         <section className="container">
             <h2>CreditCard</h2>
-            <>
+            <div> 
             <CreditCard rounder
               type="Visa"
               number="0123456789018845"
@@ -63,9 +65,8 @@ function App() {
               owner="Maxence Bouret"
               bgColor="#11aa99"
               color="white" />
-              </>
 
-              <>
+
             <CreditCard
               type="Master Card"
               number="0123456789010995"
@@ -75,8 +76,6 @@ function App() {
               owner="Maxence Bouret"
               bgColor="#eeeeee"
               color="#222222" />
-              </>
-              <>
             <CreditCard
               type="Visa"
               number="0123456789016984"
@@ -86,10 +85,20 @@ function App() {
               owner="Firstname Lastname"
               bgColor="#ddbb55"
               color="white" /> 
-              </>         
-
+              </div> 
 
         </section>
+
+        <section className="container">
+            <h2>Raiting</h2>
+            <Rating>0</Rating>
+            <Rating>1.49</Rating>
+            <Rating>1.5</Rating>
+            <Rating>3</Rating>
+            <Rating>4</Rating>
+            <Rating>5</Rating>
+        </section>
+
     </div>
   );
 }
