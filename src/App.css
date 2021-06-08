@@ -1,9 +1,9 @@
-.text-l {
-  text-align: left;
-}
-
 p {
   margin-right: 30px;
+}
+
+.text-l {
+  text-align: left;
 }
 
 .display{
@@ -14,7 +14,8 @@ p {
 .langclass {
   text-align: left;
   padding: 5px 0px 5px 10px;   
-  border: 1px black solid;                  
+  border: 1px black solid;    
+  margin-right: 0px;              
 }
 
 .container {
@@ -22,16 +23,6 @@ p {
   padding: 10px;
 }
 
-#id-card {
-  display: flex;
-  border: 1px black solid;
-  margin-top: 20px;
-  padding: 7px;
-}
-
-#id-card span {
-  font-weight: 700;
-}
 
 h2 {
 
@@ -44,6 +35,25 @@ h3 {
   margin-block-end: 8px;
   margin-left: 10px;
   font-weight: 300;
+}
+
+h4 {
+  margin-block-start: 2px;
+  margin-block-end: 2px;
+}
+
+
+/* ALL CARD  */
+
+#id-card {
+  display: flex;
+  border: 1px black solid;
+  margin-top: 20px;
+  padding: 7px;
+}
+
+#id-card span {
+  font-weight: 700;
 }
 
 .CreditCard {
@@ -73,6 +83,18 @@ h3 {
   position: relative;
   top: -8px;
 }
+
+.DriveCard {
+  background: #425cbb;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  margin: 0px 0 20px 0px;
+  color: white;
+  border-radius: 10px;
+}
+
 
 .boxcolor {
   padding: 20px 100px 20px 100px ;
