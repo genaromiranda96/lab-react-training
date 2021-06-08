@@ -1,3 +1,16 @@
+.text-l {
+  text-align: left;
+}
+
+p {
+  margin-right: 30px;
+}
+
+.display{
+  display: flex;
+  height: 25px;
+}
+
 .langclass {
   text-align: left;
   padding: 5px 0px 5px 10px;   
@@ -31,6 +44,35 @@ h3 {
   margin-block-end: 8px;
   margin-left: 10px;
   font-weight: 300;
+}
+
+.CreditCard {
+  display: inline-block;
+  float: left;
+  padding: 20px 30px 20px 30px;
+  margin: 0px 20px 20px 0px ;           
+
+}
+
+.CreditCard-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CreditCard-num {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px 0;
+     height: 30px;
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+}
+
+.CreditCard-dot-num {
+  font-size: 1.8em;
+  position: relative;
+  top: -8px;
 }
 
 .boxcolor {
