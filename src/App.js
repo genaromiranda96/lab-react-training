@@ -7,6 +7,8 @@ import CreditCard from './components/CreditCard'
 import Rating from './components/Rating'
 import DriverCard from './components/DriverCard'
 import LikeButton from './components/LikeButton'
+import ClickablePicture from './components/ClickablePicture'
+
 
 
 
@@ -122,6 +124,14 @@ function App() {
         <section className="container">
             <h2>Button Likes</h2>
             <LikeButton/>  <LikeButton/>
+        </section>
+
+        <section className="container">
+            <h2>Clickable Picture</h2>
+            <ClickablePicture
+              img='/img/persons/maxence.png'
+              imgClicked='/img/persons/maxence-glasses.png'
+              />
         </section>
 
     </div>

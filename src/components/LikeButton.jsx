@@ -19,8 +19,6 @@ class LikeButton extends Component{
 
     }
 
-
-
     render() { 
 
         const { likes, borderColor } = this.state;
